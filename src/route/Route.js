@@ -15,11 +15,13 @@ import MyDashboard from "../components/account/Dashboard";
 import Address from "../components/adress/Adress";
 import EditAccount from "../components/account/EditAccount";
 import Cart from "../pages/cart/Cart";
+import ScrollToTop from "./Use";
 
 const RouteSet = () => {
   return (
     <div>
       {/* =========Navbar=========== */}
+      <ScrollToTop>
       <Navbar />
       <Grid mt={3}>
       {/* =========Set All routes=========== */}
@@ -42,7 +44,7 @@ const RouteSet = () => {
         </Routes>
       </Grid>
       {/* =========Footer=========== */}
-      <Footer />
+      <Footer /></ScrollToTop>
     </div>
   );
 };

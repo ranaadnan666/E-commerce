@@ -25,11 +25,7 @@ export const Data = [
         title: "Contact us",
         url: "/",
     },
-    {
-        id: 6,
-        title: "Search",
-        url: "/",
-    },
+ 
    
    
    
