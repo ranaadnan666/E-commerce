@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import { border, Box, Stack } from "@mui/system";
+import {  Box, Stack } from "@mui/system";
 import { Button, Typography } from "@mui/material";
 const ShopNow = () => {
   return (

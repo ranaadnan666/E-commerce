@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import cardData from "./CardData";
 import ShoppingNow from "../../layout/banner/ShopingNow";
-import img from "../../images/banner.jpg";
+import img1 from "../../images/Rectangle 7.1.png";
 import MainCard from "../../layout/card/Card";
 import Sidebar from "./Sidebar";
 
@@ -62,7 +62,7 @@ const ShopingCard = () => {
         </Stack>
         {/* ============== this component from layout ================= */}
         <Grid xs={12}>
-          <ShoppingNow image={img} bgcolor={"black"} txtcolor={"white"} />
+          <ShoppingNow image={img1} bgcolor={"black"} txtcolor={"white"} />
         </Grid>
 
         {/* ============== Card component from layout ================= */}
